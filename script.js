@@ -32,6 +32,7 @@ window.onload = function go () {
               `${sessionStorage.getItem('letter1')}${sessionStorage.getItem('letter2')}${sessionStorage.getItem('letter3')}${sessionStorage.getItem('letter4')}${sessionStorage.getItem('letter5')}`
            )
         }
+        localStorage.clear()
         window.location.reload(false) },600)
    }, 500)
 }
